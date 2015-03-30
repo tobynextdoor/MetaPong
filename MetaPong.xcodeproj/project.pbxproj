@@ -7,37 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F62A342719C4AEE6003A07C0 /* MetaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F62A342619C4AEE6003A07C0 /* MetaButton.m */; };
+		F63EB0BB19CEF81F003DBF52 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F63EB0BA19CEF81F003DBF52 /* GameScene.sks */; };
+		F64158DB19C5DA16001D9AA3 /* DevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64158DA19C5DA16001D9AA3 /* DevicesViewController.m */; };
+		F64158DE19C60932001D9AA3 /* LaunchPlayerColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F64158DD19C60932001D9AA3 /* LaunchPlayerColorView.m */; };
+		F64158E119C621AA001D9AA3 /* MetaSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F64158E019C621AA001D9AA3 /* MetaSegue.m */; };
+		F666190519C5D1D7000DB634 /* MetaView.m in Sources */ = {isa = PBXBuildFile; fileRef = F666190419C5D1D7000DB634 /* MetaView.m */; };
 		F69425D419C4A80B00406F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69425D319C4A80B00406F70 /* main.m */; };
 		F69425D719C4A80B00406F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69425D619C4A80B00406F70 /* AppDelegate.m */; };
-		F69425DA19C4A80B00406F70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69425D919C4A80B00406F70 /* ViewController.m */; };
-		F69425DD19C4A80B00406F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69425DB19C4A80B00406F70 /* Main.storyboard */; };
+		F69425DA19C4A80B00406F70 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69425D919C4A80B00406F70 /* LaunchViewController.m */; };
 		F69425DF19C4A80B00406F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69425DE19C4A80B00406F70 /* Images.xcassets */; };
-		F69425EB19C4A80C00406F70 /* MetaPongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69425EA19C4A80C00406F70 /* MetaPongTests.m */; };
+		F69425FB19C4A96300406F70 /* MetaWear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69425FA19C4A96300406F70 /* MetaWear.framework */; };
+		F69B460719C5CDAE000A562E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69B460619C5CDAE000A562E /* Main.storyboard */; };
+		F6E8A88C19C634BD009DF82D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E8A88B19C634BD009DF82D /* GameViewController.m */; };
+		F6E8A88F19C63527009DF82D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E8A88E19C63527009DF82D /* GameScene.m */; };
+		F6E8A89119C63618009DF82D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E8A89019C63618009DF82D /* CoreGraphics.framework */; };
+		F6E8A89319C63623009DF82D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E8A89219C63623009DF82D /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F69425E519C4A80C00406F70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F69425C619C4A80B00406F70 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F69425CD19C4A80B00406F70;
-			remoteInfo = MetaPong;
+/* Begin PBXCopyFilesBuildPhase section */
+		F666192619C5D49A000DB634 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F62A342519C4AEE6003A07C0 /* MetaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaButton.h; sourceTree = "<group>"; };
+		F62A342619C4AEE6003A07C0 /* MetaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaButton.m; sourceTree = "<group>"; };
+		F63EB0BA19CEF81F003DBF52 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F64158D919C5DA16001D9AA3 /* DevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicesViewController.h; sourceTree = "<group>"; };
+		F64158DA19C5DA16001D9AA3 /* DevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesViewController.m; sourceTree = "<group>"; };
+		F64158DC19C60932001D9AA3 /* LaunchPlayerColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchPlayerColorView.h; sourceTree = "<group>"; };
+		F64158DD19C60932001D9AA3 /* LaunchPlayerColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchPlayerColorView.m; sourceTree = "<group>"; };
+		F64158DF19C621AA001D9AA3 /* MetaSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaSegue.h; sourceTree = "<group>"; };
+		F64158E019C621AA001D9AA3 /* MetaSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaSegue.m; sourceTree = "<group>"; };
+		F666190319C5D1D7000DB634 /* MetaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaView.h; sourceTree = "<group>"; };
+		F666190419C5D1D7000DB634 /* MetaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaView.m; sourceTree = "<group>"; };
 		F69425CE19C4A80B00406F70 /* MetaPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69425D219C4A80B00406F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F69425D319C4A80B00406F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F69425D519C4A80B00406F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F69425D619C4A80B00406F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F69425D819C4A80B00406F70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F69425D919C4A80B00406F70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F69425DC19C4A80B00406F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69425D819C4A80B00406F70 /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		F69425D919C4A80B00406F70 /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 		F69425DE19C4A80B00406F70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F69425E419C4A80C00406F70 /* MetaPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetaPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F69425E919C4A80C00406F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F69425EA19C4A80C00406F70 /* MetaPongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetaPongTests.m; sourceTree = "<group>"; };
+		F69425FA19C4A96300406F70 /* MetaWear.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetaWear.framework; path = "../../Frameworks:Libraries/Metawear-iOSAPI/MetaWear.framework"; sourceTree = "<group>"; };
+		F69B460619C5CDAE000A562E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F6E8A88A19C634BD009DF82D /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		F6E8A88B19C634BD009DF82D /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		F6E8A88D19C63527009DF82D /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		F6E8A88E19C63527009DF82D /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		F6E8A89019C63618009DF82D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6E8A89219C63623009DF82D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F69425E119C4A80C00406F70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F6E8A89319C63623009DF82D /* SpriteKit.framework in Frameworks */,
+				F6E8A89119C63618009DF82D /* CoreGraphics.framework in Frameworks */,
+				F69425FB19C4A96300406F70 /* MetaWear.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				F69425D019C4A80B00406F70 /* MetaPong */,
-				F69425E719C4A80C00406F70 /* MetaPongTests */,
 				F69425CF19C4A80B00406F70 /* Products */,
+				F6E8A89219C63623009DF82D /* SpriteKit.framework */,
+				F6E8A89019C63618009DF82D /* CoreGraphics.framework */,
+				F69425FA19C4A96300406F70 /* MetaWear.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				F69425CE19C4A80B00406F70 /* MetaPong.app */,
-				F69425E419C4A80C00406F70 /* MetaPongTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,12 +104,7 @@
 		F69425D019C4A80B00406F70 /* MetaPong */ = {
 			isa = PBXGroup;
 			children = (
-				F69425D519C4A80B00406F70 /* AppDelegate.h */,
-				F69425D619C4A80B00406F70 /* AppDelegate.m */,
-				F69425D819C4A80B00406F70 /* ViewController.h */,
-				F69425D919C4A80B00406F70 /* ViewController.m */,
-				F69425DB19C4A80B00406F70 /* Main.storyboard */,
-				F69425DE19C4A80B00406F70 /* Images.xcassets */,
+				F69B460519C5CB41000A562E /* UI */,
 				F69425D119C4A80B00406F70 /* Supporting Files */,
 			);
 			path = MetaPong;
@@ -93,27 +113,46 @@
 		F69425D119C4A80B00406F70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F69425DE19C4A80B00406F70 /* Images.xcassets */,
+				F69425D519C4A80B00406F70 /* AppDelegate.h */,
+				F69425D619C4A80B00406F70 /* AppDelegate.m */,
 				F69425D219C4A80B00406F70 /* Info.plist */,
 				F69425D319C4A80B00406F70 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F69425E719C4A80C00406F70 /* MetaPongTests */ = {
+		F69B460519C5CB41000A562E /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				F69425EA19C4A80C00406F70 /* MetaPongTests.m */,
-				F69425E819C4A80C00406F70 /* Supporting Files */,
+				F69B460619C5CDAE000A562E /* Main.storyboard */,
+				F69425D819C4A80B00406F70 /* LaunchViewController.h */,
+				F69425D919C4A80B00406F70 /* LaunchViewController.m */,
+				F64158D919C5DA16001D9AA3 /* DevicesViewController.h */,
+				F64158DA19C5DA16001D9AA3 /* DevicesViewController.m */,
+				F6E8A88A19C634BD009DF82D /* GameViewController.h */,
+				F6E8A88B19C634BD009DF82D /* GameViewController.m */,
+				F6E8A88D19C63527009DF82D /* GameScene.h */,
+				F6E8A88E19C63527009DF82D /* GameScene.m */,
+				F63EB0BA19CEF81F003DBF52 /* GameScene.sks */,
+				F6E8A88919C6349E009DF82D /* accessories */,
 			);
-			path = MetaPongTests;
+			name = UI;
 			sourceTree = "<group>";
 		};
-		F69425E819C4A80C00406F70 /* Supporting Files */ = {
+		F6E8A88919C6349E009DF82D /* accessories */ = {
 			isa = PBXGroup;
 			children = (
-				F69425E919C4A80C00406F70 /* Info.plist */,
+				F64158DC19C60932001D9AA3 /* LaunchPlayerColorView.h */,
+				F64158DF19C621AA001D9AA3 /* MetaSegue.h */,
+				F64158E019C621AA001D9AA3 /* MetaSegue.m */,
+				F62A342519C4AEE6003A07C0 /* MetaButton.h */,
+				F62A342619C4AEE6003A07C0 /* MetaButton.m */,
+				F64158DD19C60932001D9AA3 /* LaunchPlayerColorView.m */,
+				F666190319C5D1D7000DB634 /* MetaView.h */,
+				F666190419C5D1D7000DB634 /* MetaView.m */,
 			);
-			name = "Supporting Files";
+			name = accessories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +165,7 @@
 				F69425CA19C4A80B00406F70 /* Sources */,
 				F69425CB19C4A80B00406F70 /* Frameworks */,
 				F69425CC19C4A80B00406F70 /* Resources */,
+				F666192619C5D49A000DB634 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,24 +175,6 @@
 			productName = MetaPong;
 			productReference = F69425CE19C4A80B00406F70 /* MetaPong.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F69425E319C4A80C00406F70 /* MetaPongTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F69425F119C4A80C00406F70 /* Build configuration list for PBXNativeTarget "MetaPongTests" */;
-			buildPhases = (
-				F69425E019C4A80C00406F70 /* Sources */,
-				F69425E119C4A80C00406F70 /* Frameworks */,
-				F69425E219C4A80C00406F70 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F69425E619C4A80C00406F70 /* PBXTargetDependency */,
-			);
-			name = MetaPongTests;
-			productName = MetaPongTests;
-			productReference = F69425E419C4A80C00406F70 /* MetaPongTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -165,10 +187,7 @@
 				TargetAttributes = {
 					F69425CD19C4A80B00406F70 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					F69425E319C4A80C00406F70 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = F69425CD19C4A80B00406F70;
+						DevelopmentTeam = QC764BRG65;
 					};
 				};
 			};
@@ -186,7 +205,6 @@
 			projectRoot = "";
 			targets = (
 				F69425CD19C4A80B00406F70 /* MetaPong */,
-				F69425E319C4A80C00406F70 /* MetaPongTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,15 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69425DD19C4A80B00406F70 /* Main.storyboard in Resources */,
 				F69425DF19C4A80B00406F70 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F69425E219C4A80C00406F70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F63EB0BB19CEF81F003DBF52 /* GameScene.sks in Resources */,
+				F69B460719C5CDAE000A562E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,40 +227,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69425DA19C4A80B00406F70 /* ViewController.m in Sources */,
+				F69425DA19C4A80B00406F70 /* LaunchViewController.m in Sources */,
 				F69425D719C4A80B00406F70 /* AppDelegate.m in Sources */,
+				F64158DB19C5DA16001D9AA3 /* DevicesViewController.m in Sources */,
+				F62A342719C4AEE6003A07C0 /* MetaButton.m in Sources */,
+				F6E8A88C19C634BD009DF82D /* GameViewController.m in Sources */,
+				F6E8A88F19C63527009DF82D /* GameScene.m in Sources */,
+				F666190519C5D1D7000DB634 /* MetaView.m in Sources */,
 				F69425D419C4A80B00406F70 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F69425E019C4A80C00406F70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F69425EB19C4A80C00406F70 /* MetaPongTests.m in Sources */,
+				F64158DE19C60932001D9AA3 /* LaunchPlayerColorView.m in Sources */,
+				F64158E119C621AA001D9AA3 /* MetaSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F69425E619C4A80C00406F70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F69425CD19C4A80B00406F70 /* MetaPong */;
-			targetProxy = F69425E519C4A80C00406F70 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F69425DB19C4A80B00406F70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F69425DC19C4A80B00406F70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F69425EC19C4A80C00406F70 /* Debug */ = {
@@ -268,7 +260,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jan Wergin (WNCAN85JS6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jan Wergin (WNCAN85JS6)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -310,7 +303,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jan Wergin (WNCAN85JS6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jan Wergin (WNCAN85JS6)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -334,9 +328,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jan Wergin (WNCAN85JS6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Tobias/Developer/ObjectiveC/Frameworks:Libraries/Metawear-iOSAPI",
+				);
 				INFOPLIST_FILE = MetaPong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -345,43 +346,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jan Wergin (WNCAN85JS6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Tobias/Developer/ObjectiveC/Frameworks:Libraries/Metawear-iOSAPI",
+				);
 				INFOPLIST_FILE = MetaPong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F69425F219C4A80C00406F70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MetaPongTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetaPong.app/MetaPong";
-			};
-			name = Debug;
-		};
-		F69425F319C4A80C00406F70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MetaPongTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetaPong.app/MetaPong";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -404,14 +378,7 @@
 				F69425F019C4A80C00406F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F69425F119C4A80C00406F70 /* Build configuration list for PBXNativeTarget "MetaPongTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F69425F219C4A80C00406F70 /* Debug */,
-				F69425F319C4A80C00406F70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
